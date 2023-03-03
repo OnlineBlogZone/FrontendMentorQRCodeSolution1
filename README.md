@@ -24,8 +24,7 @@ This README will provide insight and information abou my solution for the QR cod
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://onlineblogzone.github.io/FrontendMentorQRCodeSolution1/](https://onlineblogzone.github.io/FrontendMentorQRCodeSolution1/)
 
 ## My process
 I started this challenge by first putting my browser into responsive mobile mode with 375px of width.
