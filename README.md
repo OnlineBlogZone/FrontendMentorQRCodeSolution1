@@ -34,9 +34,9 @@ Next, I started laying out the HTML structure by adding the QR code image, headi
 ```HTML
 <body>
   <img src="./images/image-qr-code.png" alt="QR code image">
-  <h2>
+  <h1>
     Improve your front-end skills by building projects
-  </h2>
+  </h1>
   <p>
     Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
   </p>
@@ -49,19 +49,19 @@ For this challenge, we're looking at a card. Inside this card we have the image 
 ```HTML
 
 <body>
-  <div class="card">
+  <main class="card">
     <div>
       <img src="./images/image-qr-code.png" alt="QR code image">
     </div>
     <div>
-      <h2>
+      <h1>
         Improve your front-end skills by building projects
-      </h2>
+      </h1>
       <p>
         Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
       </p>
     </div>
-  </div>
+  </main>
 </body>
 ```
 
@@ -69,19 +69,19 @@ Since I wanted to use the BEM methodology for this challenge, this was the point
 
 ```HTML
 <body>
-  <div class="card">
+  <main class="card">
     <div class="card__header">
       <img class="card__image" src="./images/image-qr-code.png" alt="QR code image">
     </div>
     <div class="card__content">
-      <h2 class="card__heading">
+      <h1 class="card__heading">
         Improve your front-end skills by building projects
-      </h2>
+      </h1>
       <p class="card__subtext">
         Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
       </p>
     </div>
-  </div>
+  </main>
 </body>
 ```
 
